@@ -42,7 +42,7 @@ app.use("/uploads", express.static("uploads"));
 
 // ✅ Routes
 app.use("/api/events", EventRoute);
-app.use("/api/imageRoutes", ImageRoutes);
+app.use("/api/imageRoutes", ImageRoutes); 
 app.use("/api/about", AboutRoute);
 app.use("/api/users", userRoutes);
 app.use("/api/imageSlider", ImageSliderRoutes);
