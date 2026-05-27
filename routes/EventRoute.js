@@ -5,7 +5,7 @@ import {
   deleteEvent,
 } from "../controllers/EventController.js";
 
-import upload from "../middleware/Upload.js";
+import upload from "../middleware/upload.js";
 
 const router = express.Router();
 
