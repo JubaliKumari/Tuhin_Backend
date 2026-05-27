@@ -6,7 +6,7 @@ import {
 } from "../controllers/EventController.js";
 
 import upload from "../middleware/upload.js";
- 
+
 const router = express.Router();
 
 // ✅ ONLY ONE CREATE ROUTE
